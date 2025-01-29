@@ -1,0 +1,5 @@
+
+
+mongodump --uri "mongodb://localhost:27017/cl-prod-db?retryWrites=true&w=majority"  --out C:\Users\baps\Desktop\db  => export
+
+mongorestore --uri "mongodb://localhost:27017/dms-dev" "C:\Users\VirsingVasava-DevRep\Downloads\DMS-DEV\DMS-DEV"
